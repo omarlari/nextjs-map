@@ -20,7 +20,7 @@ def appRoot():
 
 @app.route('/map')
 def map():
-    r = Flask.jsonify({'type':'FeatureCollection',
+    r = jsonify({'type':'FeatureCollection',
     'features': [
         {'type': 'Feature', 
         'geometry': {
