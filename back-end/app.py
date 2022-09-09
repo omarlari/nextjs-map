@@ -36,6 +36,7 @@ def map():
         'event_count': 10
     }
     }]}
+    r.headers.add('Access-Control-Allow-Origin', '*')
     return jsonify(r)
 
 @app.route('/healthz')

@@ -12,7 +12,8 @@ const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
 export default function Home() {
   const [pageIsMounted, setPageIsMounted] = useState(false);
   const [Map, setMap] = useState();
-  const { data, error } = useSWR("/api/liveMusic", fetcher);
+  //const { data, error } = useSWR("/api/liveMusic", fetcher);
+  const { data, error } = useSWR("https://nextjs-map-production.up.railway.app/map", fetcher);
 
   if (error) {
     console.error(error);
