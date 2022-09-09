@@ -16,7 +16,7 @@ export default function Home() {
     console.error(error);
   }
 
-  mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN;
+  mapboxgl.accessToken = NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN;
 
   useEffect(() => {
     setPageIsMounted(true);
