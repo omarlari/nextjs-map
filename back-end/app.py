@@ -20,7 +20,7 @@ def appRoot():
 
 @app.route('/map')
 def map():
-    r = {'type':'FeatureCollection',
+    r = Flask.jsonify({'type':'FeatureCollection',
     'features': [
         {'type': 'Feature', 
         'geometry': {
@@ -35,9 +35,9 @@ def map():
         'venue': 'blackcat',
         'event_count': 10
     }
-    }]}
+    }]})
     r.headers.add('Access-Control-Allow-Origin', '*')
-    return jsonify(r)
+    return r
 
 @app.route('/healthz')
 def healthcheck():
