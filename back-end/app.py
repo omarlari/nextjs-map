@@ -18,6 +18,26 @@ def appRoot():
     person = {'name': 'PR request 1', 'birth-year': 1978}
     return jsonify(person)
 
+@app.route('/map')
+def map():
+    r = {'type':'FeatureCollection',
+    'features': [
+        {'type': 'Feature', 
+        'geometry': {
+        'type': 'Point', 
+        'coordinates': [
+            '-122.47',
+             '37,77183'
+             ]},
+    'properties':{
+        'title': 'Omars House',
+        'cluster': 'false',
+        'venue': 'blackcat',
+        'event_count': 10
+    }
+    }]}
+    return jsonify(r)
+
 @app.route('/healthz')
 def healthcheck():
     now = datetime.now()
