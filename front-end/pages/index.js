@@ -5,6 +5,8 @@ import { addDataLayer } from "../map/addDataLayer";
 import { initializeMap } from "../map/initializeMap";
 import { fetcher } from "../utilities/fetcher";
 import styles from "../styles/Home.module.css";
+
+
 const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
 
 export default function Home() {

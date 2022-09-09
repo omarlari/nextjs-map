@@ -1,0 +1,1 @@
+{"ast":null,"code":"async function fetcher(params) {\n  try {\n    const response = await fetch(params);\n    const responseJSON = await response.json();\n    return responseJSON;\n  } catch (error) {\n    console.error(\"Fetcher error: \" + error);\n    return {};\n  }\n}","map":null,"metadata":{},"sourceType":"script"}
