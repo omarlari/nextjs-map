@@ -88,43 +88,20 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/api/liveMusic.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 1:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("8DiP");
-
-
-/***/ }),
-
-/***/ "8DiP":
+/***/ "./pages/api/liveMusic.js":
+/*!********************************!*\
+  !*** ./pages/api/liveMusic.js ***!
+  \********************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ((req, res) => {
-  res.statusCode = 200;
-  res.json({
-    type: "FeatureCollection",
-    features: [{
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [-122.47008831446263, 37.77183742087868]
-      },
-      properties: {
-        title: "Omar's House",
-        cluster: false,
-        venue: "blackcat",
-        event_count: 10
-      }
-    }]
-  });
-});
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ((req, res) => {\n  res.statusCode = 200;\n  res.json({\n    type: \"FeatureCollection\",\n    features: [{\n      type: \"Feature\",\n      geometry: {\n        type: \"Point\",\n        coordinates: [-122.47008831446263, 37.77183742087868]\n      },\n      properties: {\n        title: \"Omar's House\",\n        cluster: false,\n        venue: \"blackcat\",\n        event_count: 10\n      }\n    }]\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9hcGkvbGl2ZU11c2ljLmpzP2YwMzgiXSwibmFtZXMiOlsicmVxIiwicmVzIiwic3RhdHVzQ29kZSIsImpzb24iLCJ0eXBlIiwiZmVhdHVyZXMiLCJnZW9tZXRyeSIsImNvb3JkaW5hdGVzIiwicHJvcGVydGllcyIsInRpdGxlIiwiY2x1c3RlciIsInZlbnVlIiwiZXZlbnRfY291bnQiXSwibWFwcGluZ3MiOiJBQUFBO0FBQWUsZ0VBQUNBLEdBQUQsRUFBTUMsR0FBTixLQUFjO0FBQzNCQSxLQUFHLENBQUNDLFVBQUosR0FBaUIsR0FBakI7QUFDQUQsS0FBRyxDQUFDRSxJQUFKLENBQVM7QUFDUEMsUUFBSSxFQUFFLG1CQURDO0FBRVBDLFlBQVEsRUFBRSxDQUNSO0FBQ0VELFVBQUksRUFBRSxTQURSO0FBRUVFLGNBQVEsRUFBRTtBQUFFRixZQUFJLEVBQUUsT0FBUjtBQUFpQkcsbUJBQVcsRUFBRSxDQUFDLENBQUMsa0JBQUYsRUFBc0IsaUJBQXRCO0FBQTlCLE9BRlo7QUFHRUMsZ0JBQVUsRUFBRTtBQUNWQyxhQUFLLEVBQUUsY0FERztBQUVWQyxlQUFPLEVBQUUsS0FGQztBQUdWQyxhQUFLLEVBQUUsVUFIRztBQUlWQyxtQkFBVyxFQUFFO0FBSkg7QUFIZCxLQURRO0FBRkgsR0FBVDtBQWVELENBakJEIiwiZmlsZSI6Ii4vcGFnZXMvYXBpL2xpdmVNdXNpYy5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IChyZXEsIHJlcykgPT4ge1xuICByZXMuc3RhdHVzQ29kZSA9IDIwMDtcbiAgcmVzLmpzb24oe1xuICAgIHR5cGU6IFwiRmVhdHVyZUNvbGxlY3Rpb25cIixcbiAgICBmZWF0dXJlczogW1xuICAgICAge1xuICAgICAgICB0eXBlOiBcIkZlYXR1cmVcIixcbiAgICAgICAgZ2VvbWV0cnk6IHsgdHlwZTogXCJQb2ludFwiLCBjb29yZGluYXRlczogWy0xMjIuNDcwMDg4MzE0NDYyNjMsIDM3Ljc3MTgzNzQyMDg3ODY4XSB9LFxuICAgICAgICBwcm9wZXJ0aWVzOiB7XG4gICAgICAgICAgdGl0bGU6IFwiT21hcidzIEhvdXNlXCIsXG4gICAgICAgICAgY2x1c3RlcjogZmFsc2UsXG4gICAgICAgICAgdmVudWU6IFwiYmxhY2tjYXRcIixcbiAgICAgICAgICBldmVudF9jb3VudDogMTAsXG4gICAgICAgIH0sXG4gICAgICB9LFxuICAgIF0sXG4gIH0pO1xufTtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/api/liveMusic.js\n");
 
 /***/ })
 
