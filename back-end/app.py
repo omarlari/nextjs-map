@@ -26,12 +26,12 @@ def map():
         'geometry': {
         'type': 'Point', 
         'coordinates': [
-            '-122.47',
-             '37,77183'
+            -122.47,
+             37,77183
              ]},
     'properties':{
         'title': 'Omars House',
-        'cluster': 'false',
+        'cluster': False,
         'venue': 'blackcat',
         'event_count': 10
     }
