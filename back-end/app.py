@@ -27,7 +27,7 @@ def map():
         'type': 'Point', 
         'coordinates': [
             -122.47,
-             37,77183
+             37.77183
              ]},
     'properties':{
         'title': 'Omars House',

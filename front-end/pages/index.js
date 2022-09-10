@@ -26,7 +26,7 @@ export default function Home() {
 
     let map = new mapboxgl.Map({
       container: "my-map",
-      style: "mapbox://styles/mapbox/light-v10",
+      style: "mapbox://styles/mapbox/streets-v11",
       center: [-122.433247, 37.742646],
       zoom: 13,
       pitch: 45,
