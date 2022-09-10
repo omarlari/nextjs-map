@@ -26,7 +26,7 @@ def map():
         'geometry': {
         'type': 'Point', 
         'coordinates': [
-            73.990593,
+            -73.990593,
              40.740121
              ]},
     'properties':{
